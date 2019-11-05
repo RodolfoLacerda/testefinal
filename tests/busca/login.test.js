@@ -1,7 +1,7 @@
 
 
 module.exports = {
-    'ACESSO AO SISTEMA SMARTYENERGY CADASTRO OK': function (browser) {
+    'ACESSO AO SISTEMA SMARTYENERGY CADASTRO OKk': function (browser) {
         var userInfo = '.user .info span'
         browser
             .resizeWindow(1920, 1080)
@@ -32,7 +32,7 @@ module.exports = {
             .waitForElementVisible('//div[@id="select-energy_dealer.id_company"]', 2000)
             .click('//div[@id="select-energy_dealer.id_company"]')
             .pause(5000)
-            
+
            
             
         
