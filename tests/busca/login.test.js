@@ -5,7 +5,7 @@ module.exports = {
         var userInfo = '.user .info span'
         browser
             .resizeWindow(1920, 1080)
-            .url('http://187.72.82.243:3000')
+            .url('https://globoesporte.globo.com/')
             .waitForElementVisible('.MuiIconButton-edgeStart', 3000)
             .click('.MuiIconButton-colorSecondary')
             .useXpath()
