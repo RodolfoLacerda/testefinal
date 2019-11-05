@@ -23,8 +23,8 @@ module.exports = {
         let login = browser.page.login()
         let sidebar = browser.page.sidebar()
 
-        login.with('farleyrodolfo@gmail.com', 'Dodo940808')
-        sidebar.expectLoggedUser('Rodolfo')
+        login.with('zumbi@dospalmares.com.br', 'pwd123')
+        sidebar.expectLoggedUser('Quilombo')
     },
 
     'quando eu faço a busca pelo titulo': function (browser) {
