@@ -1,7 +1,7 @@
 
 
 module.exports = {
-    'ACESSO AO SISTEMA SMARTYENERGY CADASTRO OK': function (browser) {
+    'ACESSO AO SISTEMA SMARTYENERGY CADASTRO 01': function (browser) {
         var userInfo = '.user .info span'
         browser
         .resizeWindow(1920, 1080)

@@ -1,7 +1,7 @@
 
 
 module.exports = {
-    'ACESSO AO SISTEMA SMARTYENERGY CADASTRO OKk': function (browser) {
+    'ACESSO AO SISTEMA SMARTYENERGY CADASTRO 02': function (browser) {
         var userInfo = '.user .info span'
         browser
         .url('http://187.72.82.243:3000')
