@@ -22,8 +22,8 @@ module.exports = {
         let login = browser.page.login()
         let sidebar = browser.page.sidebar()
 
-        login.with('zumbi@dospalmares.com.br', 'pwd123')
-        sidebar.expectLoggedUser('Quilombo')
+        login.with('farleyrodolfo@gmail.com', 'Dodo940808')
+        sidebar.expectLoggedUser('Rodolfo')
     },
 
     'quando eu faço o cadastro do filme': function (browser) {
