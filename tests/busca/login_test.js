@@ -1,5 +1,5 @@
 module.exports = {
-    'smartyEnergy': (browser) => {
+    'login com sucesso': (browser) => {
         let login = browser.page.login()
        
 
@@ -19,6 +19,7 @@ module.exports = {
             .click('//li[contains(.,"Distribuição")]')
             .setValue('@pontoConexao', '123')
 
+     
             
     }
 }
